@@ -1,0 +1,40 @@
+package Com.sample;
+class RBIbank{
+
+	public double rate() {
+		return 2;
+	}
+}
+class SBI extends RBIbank{
+	
+	public double rate() {
+		return 3;
+	}
+}
+class ICICI extends RBIbank{
+	public double rate() {
+		return 4;
+	}
+}
+
+public class Inheritance {
+	public static void main(String[] args) {
+		RBIbank b = new RBIbank();
+		SBI sb = new SBI();
+		ICICI ic = new ICICI();
+		RBIbank rb = new SBI();
+		System.out.println("the rate of interest in RBI is" + b.rate());
+		System.out.println("the rate of interest in sb is" + sb.rate());
+		System.out.println("the rate of interest in ic is" + ic.rate());
+		System.out.println("the rate of interest in sb is" + rb.rate());
+
+
+
+	}
+
+}
+OUTPUT: 
+the rate of interest in RBI is2.0
+the rate of interest in sb is3.0
+the rate of interest in ic is4.0
+the rate of interest in sb is3.0
