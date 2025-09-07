@@ -1,0 +1,28 @@
+public class AssignmentOperators {
+    public static void main(String[] args) {
+        int a = 10;
+        System.out.println("Initial value of a: " + a);
+
+        a += 5;  // a = a + 5
+        System.out.println("After a += 5: " + a);
+
+        a -= 3;  // a = a - 3
+        System.out.println("After a -= 3: " + a);
+
+        a *= 2;  // a = a * 2
+        System.out.println("After a *= 2: " + a);
+
+        a /= 4;  // a = a / 4
+        System.out.println("After a /= 4: " + a);
+
+        a %= 3;  // a = a % 3
+        System.out.println("After a %= 3: " + a);
+    }
+}
+OUTPUT
+Initial value of a: 10  
+After a += 5: 15  
+After a -= 3: 12  
+After a *= 2: 24  
+After a /= 4: 6  
+After a %= 3: 0  
