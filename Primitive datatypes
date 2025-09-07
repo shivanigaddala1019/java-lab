@@ -1,0 +1,41 @@
+public class PrimitiveDataTypes {
+    public static void main(String[] args) {
+        // Integer types
+        byte b = 100;
+        short s = 30000;
+        int i = 100000;
+        long l = 10000000000L;
+
+        // Floating-point types
+        float f = 5.75f;
+        double d = 19.99;
+
+        // Character type
+        char c = 'A';
+
+        // Boolean type
+        boolean isJavaFun = true;
+
+        // Displaying values
+        System.out.println("byte value: " + b);
+        System.out.println("short value: " + s);
+        System.out.println("int value: " + i);
+        System.out.println("long value: " + l);
+        System.out.println("float value: " + f);
+        System.out.println("double value: " + d);
+        System.out.println("char value: " + c);
+        System.out.println("boolean value: " + isJavaFun);
+    }
+}
+OUTPUT
+byte value: 100  
+short value: 30000  
+int value: 100000  
+long value: 10000000000  
+float value: 5.75  
+double value: 19.99  
+char value: A  
+boolean value: true
+
+
+OUTPUT
