@@ -1,0 +1,39 @@
+# Javalab
+#Parameterized_ construction
+package java.com;
+class para{
+    String Name;
+    String section;
+    int classRoomNo;
+    para(){
+        System.out.println("Default Constructor"); // Default constructor with no parameters
+    }
+    para(String Name){
+            System.out.println("Hello "+ Name); // 1st parameterized constructor with one parameter 
+    }
+    para(String Name,String section){
+        System.out.println("Hello "+Name + " Welcome to "+section); // 2nd parameterized constructor with two parameters
+        
+    }
+    para(String Name,String section,int classRoomNo){
+        System.out.println("Hello "+Name +"Welcome to"+ section +  "And Your Class Room No is "+classRoomNo); // 3rd parameterized constructor with three parameters
+        
+    }
+}
+
+public class {
+
+    public static void main(String[] args) {
+        //  Auto-generated method 
+        para con = new para();  //no parameters
+        para p1 = new para("shivani gaddala");//one parameter 
+        para p2 = new para("shivani gaddala","CSE-E");//two parameters
+        para p3 = new para("shivani gaddala","CSE-E",207);//three parameters
+    }
+}
+
+OUTPUT:
+Default Constructor
+Hello shivani gaddala 
+Hello shivani gaddala Welcome to CSE_E
+Hello shivani gaddala Welcome to CSE_E And Your Class Room No is 207
