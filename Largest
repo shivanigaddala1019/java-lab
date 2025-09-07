@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class LargestOfTwo {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter first number: ");
+        int a = scanner.nextInt();
+
+        System.out.print("Enter second number: ");
+        int b = scanner.nextInt();
+
+        if (a > b) {
+            System.out.println(a + " is the largest number.");
+        } else if (b > a) {
+            System.out.println(b + " is the largest number.");
+        } else {
+            System.out.println("Both numbers are equal.");
+        }
+    }
+}
+OUTPUT
+Enter first number: 45  
+Enter second number: 78  
+78 is the largest number.
