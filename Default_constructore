@@ -1,0 +1,26 @@
+package java.com;
+class std
+{
+	String name = "shivani gaddala";   
+    int rollno = 530;
+    
+    std(){
+    System.out.println("default constructor");
+    }
+}
+public class student{
+      
+    public static void main(String[] args) {
+        
+         std s1 = new std();
+         System.out.println("Name: " + s1.name);
+         System.out.println("rollno: " + s1.rollno);
+    }
+
+}  
+
+
+OUTPUT:
+default constructor
+Name: shivani gaddala
+rollno: 530
