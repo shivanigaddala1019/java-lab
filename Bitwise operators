@@ -1,0 +1,25 @@
+public class BitwiseOperators {
+    public static void main(String[] args) {
+        int a = 5;   // Binary: 0101
+        int b = 3;   // Binary: 0011
+
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+
+        System.out.println("a & b (AND): " + (a & b));     // 0101 & 0011 = 0001 → 1
+        System.out.println("a | b (OR): " + (a | b));       // 0101 | 0011 = 0111 → 7
+        System.out.println("a ^ b (XOR): " + (a ^ b));      // 0101 ^ 0011 = 0110 → 6
+        System.out.println("~a (NOT): " + (~a));            // ~0101 = 1010 (in 2's complement) → -6
+        System.out.println("a << 1 (Left Shift): " + (a << 1)); // 0101 << 1 = 1010 → 10
+        System.out.println("a >> 1 (Right Shift): " + (a >> 1)); // 0101 >> 1 = 0010 → 2
+    }
+}
+OUTPUT
+a = 5  
+b = 3  
+a & b (AND): 1  
+a | b (OR): 7  
+a ^ b (XOR): 6  
+~a (NOT): -6  
+a << 1 (Left Shift): 10  
+a >> 1 (Right Shift): 2  
