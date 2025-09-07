@@ -1,0 +1,23 @@
+public class ArithmeticOperators {
+    public static void main(String[] args) {
+        int a = 20;
+        int b = 6;
+
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+
+        System.out.println("Addition (a + b): " + (a + b));
+        System.out.println("Subtraction (a - b): " + (a - b));
+        System.out.println("Multiplication (a * b): " + (a * b));
+        System.out.println("Division (a / b): " + (a / b));
+        System.out.println("Modulus (a % b): " + (a % b));
+    }
+}
+OUTPUT
+a = 20  
+b = 6  
+Addition (a + b): 26  
+Subtraction (a - b): 14  
+Multiplication (a * b): 120  
+Division (a / b): 3  
+Modulus (a % b): 2  
