@@ -1,0 +1,43 @@
+package Examples;
+import java.util.Scanner;
+import java.lang.*;
+
+public class Calculator {
+	public static void main(String args[]) {
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		int ans;
+		int choice=sc.nextInt();
+		 System.out.println("1.addition\n 2. subtarction\n 3.multipy 4.divide");
+		 System.out.println("enter your choice"+choice);
+		 switch(choice) {
+		    case 1:
+				System.out.println("addition of two numbers");
+				ans=a+b;
+				System.out.println(ans);
+				break;
+			case 2:
+				System.out.println("subtraction of two numbers");
+				System.out.println(ans=a-b);
+				break;
+			case 3:
+				System.out.println("multiplication of two numbers");
+				System.out.println(ans=a*b);
+				break;
+			case 4:
+				System.out.println("division of two numbers");
+				System.out.println(ans=a/b);
+				break;
+				default:
+					System.out.println("invalid");
+					break;
+				
+				
+		}
+	
+
+		 
+	}
+}
+
